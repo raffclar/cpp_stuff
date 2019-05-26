@@ -7,5 +7,6 @@ subdirs(
         exit_after_x_seconds
         print_every_x_seconds
         throw_exception
+        segmentation_fault
 )
 
