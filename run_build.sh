@@ -15,10 +15,7 @@ info() {
 mkdir -p build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Debug ..
-
-FLAGS="-j8 -Wall"
-
-make ${FLAGS}
+cmake --build .
 
 if [ $? -ne 0 ]; then
     error "Error: failed to compile!"
