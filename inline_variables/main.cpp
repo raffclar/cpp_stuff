@@ -1,6 +1,4 @@
-#include <string>
 #include <iostream>
-#include <vector>
 
 struct FirstStruct {
     static inline const char *msg = "Hello world";
