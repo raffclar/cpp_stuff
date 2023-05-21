@@ -1,6 +1,5 @@
 #include <variant>
 #include <iostream>
-#include <vector>
 
 int main() {
     auto p1 = [=] (auto msg, bool state) {
