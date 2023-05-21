@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include <string>
 
 int main (int argc, char *argv[]) {
     if (argc < 2) {
